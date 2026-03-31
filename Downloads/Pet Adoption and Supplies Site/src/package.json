@@ -1,0 +1,39 @@
+{
+  "name": "petlar",
+  "version": "1.0.0",
+  "description": "Site completo de pet shop com adoção, doações e agendamento de visitas",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0"
+  },
+  "keywords": [
+    "pet-shop",
+    "adoção",
+    "animais",
+    "doação",
+    "react",
+    "typescript",
+    "tailwind"
+  ],
+  "author": "PetLar Team",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "lucide-react": "latest",
+    "date-fns": "^4.1.0",
+    "sonner": "^2.0.3",
+    "react-hook-form": "^7.55.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "@vitejs/plugin-react": "^4.2.0",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.0",
+    "tailwindcss": "^4.0.0"
+  }
+}
