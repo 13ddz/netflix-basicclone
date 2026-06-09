@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Carregando...</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .spinner {
+            width: 60px;
+            height: 60px;
+            border: 6px solid #fff;
+            border-top: 6px solid #e50914;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        h2 {
+            position: absolute;
+            top: 60%;
+            font-weight: normal;
+            color: #ccc;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="spinner"></div>
+    <h2>Carregando...</h2>
+
+    <script>
+        // Espera 2 segundos, então redireciona
+        setTimeout(function () {
+            window.location.href = "interface.html";
+        }, 2000);
+    </script>
+</body>
+
+</html>
